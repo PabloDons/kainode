@@ -1,0 +1,30 @@
+{
+  "name": "kainode",
+  "version": "1.0.0",
+  "description": "a monitoring wrapper for long running applications",
+  "bin": {
+    "kainode": "bin/kainode.js"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloDons/kainode.git"
+  },
+  "author": "Omar Saad",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/PabloDons/kainode/issues"
+  },
+  "homepage": "https://github.com/PabloDons/kainode#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "finalhandler": "^1.0.4",
+    "http": "0.0.0",
+    "log": "^1.4.0",
+    "serve-static": "^1.12.4",
+    "websocket": "^1.0.24"
+  }
+}

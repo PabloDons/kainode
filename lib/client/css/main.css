@@ -1,0 +1,18 @@
+.wrapper {
+    width: 900px;
+    margin: auto;
+}
+
+#console {
+    background: #1D1D1D;
+    color: #FFFFFF;
+    height: 80vh;
+    padding: 8px;
+    overflow: hidden;
+}
+
+#data {
+    width: 800px;
+}
+
+#send-button {}
