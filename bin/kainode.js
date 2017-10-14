@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
 const fs = require('fs');
 switch (process.argv[2]) {
     case '-v':
